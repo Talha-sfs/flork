@@ -20,7 +20,7 @@ const Section3 = () => {
         <Box className="spotText_wrapper" sx={{ padding: "0rem 3rem" }}>
           <Typography
             sx={{
-              fontSize: { xs: "1.3rem", md: "3.2rem" },
+              fontSize: { xs: "1.5rem", md: "3.2rem" },
               lineHeight: "160%",
               fontFamily: "Denk One",
               color: "#000",
@@ -36,7 +36,7 @@ const Section3 = () => {
               color: "#464646",
               lineHeight: "160%",
               textAlign: { xs: "center", md: "left" },
-              fontSize: { xs: "1.3rem", md: "2rem" },
+              fontSize: { xs: "1rem", md: "2rem" },
             }}
           >
             Tired of the heat from other coins? Swap stress for fun with us—your

@@ -21,14 +21,14 @@ const Contract = () => {
           borderRadius: "3rem",
           fontSize: "2rem",
           "& .MuiOutlinedInput-root": {
-            fontSize: { xs: "2.4rem" },
+            fontSize: { xs: "1.4rem", md: "2.4rem" },
             fontFamily: "Denk One",
           },
           "& .MuiOutlinedInput-notchedOutline": {
             border: "none",
           },
           "& .MuiOutlinedInput-input": {
-            padding: "1.2rem 2rem",
+            padding: { xs: "1rem", md: "1.2rem 2rem" },
           },
         }}
         InputProps={{
@@ -40,8 +40,8 @@ const Contract = () => {
                   color: "#fff",
                   borderRadius: "3rem",
                   fontFamily: "Denk One",
-                  fontSize: "2rem",
-                  padding: ".5rem 2rem",
+                  fontSize: { xs: "1rem", md: "2rem" },
+                  padding: { md: ".5rem 2rem", xs: ".5rem 1rem" },
                   ":hover": {
                     color: "#000",
                     background: "#999",

@@ -27,7 +27,7 @@ const Features = () => {
               sx={{
                 fontFamily: "Denk One",
                 fontWeight: "400",
-                fontSize: "38px",
+                fontSize: { xs: "1rem", md: "2.4rem" },
                 lineHeight: "160%",
                 textAlign: "center",
                 color: "#fff",
@@ -50,7 +50,7 @@ const Features = () => {
               sx={{
                 fontFamily: "Denk One",
                 fontWeight: "400",
-                fontSize: "38px",
+                fontSize: { xs: "1rem", md: "2.4rem" },
                 lineHeight: "160%",
                 textAlign: "center",
                 color: "#fff",
@@ -72,7 +72,7 @@ const Features = () => {
               sx={{
                 fontFamily: "Denk One",
                 fontWeight: "400",
-                fontSize: "38px",
+                fontSize: { xs: "1rem", md: "2.4rem" },
                 lineHeight: "160%",
                 textAlign: "center",
                 color: "#fff",
@@ -95,7 +95,7 @@ const Features = () => {
               sx={{
                 fontFamily: "Denk One",
                 fontWeight: "400",
-                fontSize: "38px",
+                fontSize: { xs: "1rem", md: "2.4rem" },
                 lineHeight: "160%",
                 textAlign: "center",
                 color: "#fff",

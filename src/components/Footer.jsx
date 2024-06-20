@@ -52,7 +52,7 @@ const Footer = () => {
             fontFamily: "Poppins",
             fontSize: { xs: "16px" },
             fontWeight: "500",
-            padding: { xs: "0rem 4rem", md: "0rem 10rem" },
+            padding: { xs: "0rem 1rem", md: "0rem 10rem" },
           }}
         >
           {" "}

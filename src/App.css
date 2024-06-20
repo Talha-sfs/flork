@@ -9,7 +9,7 @@
   background: #000 !important;
   color: #fff !important;
   font-family: "Denk One", sans-serif !important;
-  font-size: 0.7rem !important;
+  font-size: 1rem !important;
 }
 .main_Wrapper {
   display: flex;
@@ -90,7 +90,7 @@
     font-family: "Denk One" !important;
     font-style: normal !important;
     font-weight: 400 !important;
-    font-size: 36.2423px !important;
+    font-size: 26.2423px !important;
     line-height: 160% !important;
     /* or 90px */
 
@@ -102,14 +102,14 @@
     font-family: "Denk One" !important;
     font-style: normal !important;
     font-weight: 400 !important;
-    font-size: 21.4417px !important;
+    font-size: 16.4417px !important;
     line-height: 160% !important;
     /* or 66px */
     text-align: center;
     color: #464646 !important;
   }
   .image_Wrapper {
-    width: 60%;
+    width: 50%;
   }
   .image7 {
     width: 200px;
