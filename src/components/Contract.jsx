@@ -1,8 +1,17 @@
-import { Button, Container, InputAdornment, TextField } from "@mui/material";
+import {
+  Button,
+  Container,
+  InputAdornment,
+  TextField,
+  Typography,
+} from "@mui/material";
 
 const Contract = () => {
   return (
     <Container sx={{ margin: "3rem auto" }}>
+      <Typography sx={{ textAlign: "center" }} className="heading">
+        CONTRACT
+      </Typography>
       <TextField
         fullWidth
         value="0x98d9278a04y01c6a59a9d7c1CD79f7788C6ADe08"
@@ -33,6 +42,10 @@ const Contract = () => {
                   fontFamily: "Denk One",
                   fontSize: "2rem",
                   padding: ".5rem 2rem",
+                  ":hover": {
+                    color: "#000",
+                    background: "#999",
+                  },
                 }}
               >
                 Copy
