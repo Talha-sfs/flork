@@ -5,7 +5,7 @@
 
 .btn_primary {
   border-radius: 5rem !important;
-  padding: 0.5rem 1rem !important;
+  padding: 0.5rem 1.3rem !important;
   background: #000 !important;
   color: #fff !important;
   font-family: "Denk One", sans-serif !important;
@@ -173,8 +173,8 @@
     position: absolute;
     transform: translate(-50%, -50%);
     top: 25%;
-    left: 50%;
-    width: 715px;
+    left: 60%;
+    width: 775px;
   }
 }
 
@@ -190,7 +190,7 @@
   .text1 {
     position: absolute;
     top: -9rem;
-    left: 12rem;
+    left: 8rem;
     font-size: 8rem !important;
     font-family: "Amatic SC" !important;
   }
@@ -208,22 +208,33 @@
     text-align: left;
     font-size: 42px !important;
   }
-  .spotMain_wrapper {
-    height: 100vh;
-    max-height: fit-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    position: relative;
-  }
-  .spotImage_wrapper {
-    width: 100%;
-  }
   .spotText_wrapper {
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 20%;
-    left: 50%;
-    width: 715px;
+    top: 25%;
+    left: 60%;
+    width: 775px;
+  }
+  .footer_header::before {
+    width: 40%;
+  }
+  .footer_header::after {
+    width: 40%;
+  }
+  .image7 {
+    width: 300px;
+    position: absolute;
+    bottom: -20px;
+    left: 0px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .spotText_wrapper {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 25%;
+    left: 54%;
+    width: 775px;
   }
 }

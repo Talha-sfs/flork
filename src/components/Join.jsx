@@ -25,7 +25,7 @@ const Join = () => {
             sx={{
               color: "#000",
               textAlign: "center",
-              fontSize: "24px",
+              fontSize: { xs: "24px", md: "48px" },
               fontFamily: "Denk One",
               textShadow: "0px 7px 8.2px rgba(0, 0, 0, 0.31)",
             }}
@@ -40,7 +40,7 @@ const Join = () => {
             flexDirection: "column",
             alignItems: "center",
             gap: "2rem",
-            margin: { xs: "3rem 0rem" },
+            margin: { xs: "5rem 0rem" },
           }}
         >
           <Button className="btn_primary" sx={{ fontFamily: "Century Gothic" }}>

@@ -10,20 +10,33 @@ const Contract = () => {
         sx={{
           border: "1px solid #000",
           borderRadius: "3rem",
-          padding: ".7rem",
           fontSize: "2rem",
           "& .MuiOutlinedInput-root": {
-            fontSize: { xs: "1.3rem" },
+            fontSize: { xs: "2.4rem" },
             fontFamily: "Denk One",
           },
           "& .MuiOutlinedInput-notchedOutline": {
             border: "none",
           },
+          "& .MuiOutlinedInput-input": {
+            padding: "1.2rem 2rem",
+          },
         }}
         InputProps={{
           endAdornment: (
             <InputAdornment position="end">
-              <Button className="btn_primary">Copy</Button>
+              <Button
+                sx={{
+                  background: "#000",
+                  color: "#fff",
+                  borderRadius: "3rem",
+                  fontFamily: "Denk One",
+                  fontSize: "2rem",
+                  padding: ".5rem 2rem",
+                }}
+              >
+                Copy
+              </Button>
             </InputAdornment>
           ),
         }}

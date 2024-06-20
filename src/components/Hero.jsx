@@ -40,7 +40,7 @@ const Hero = () => {
                 justifyContent: "center",
                 alignItems: "center",
                 position: "relative",
-                bottom: { xs: "-1.4rem", sm: "-1.8rem", md: "-4.3rem" },
+                bottom: { xs: "-1.4rem", sm: "-1.8rem", md: "-3.7rem" },
               }}
             >
               <Typography className="text1">Meet</Typography>

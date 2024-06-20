@@ -4,7 +4,18 @@ import { Container, Typography } from "@mui/material";
 
 const Section3 = () => {
   return (
-    <Box className="spotMain_wrapper">
+    <Box
+      className="spotMain_wrapper"
+      sx={{
+        height: "130vh",
+        maxHeight: "990px",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        position: "relative",
+        overflow: "hidden",
+      }}
+    >
       <Container>
         <Box className="spotText_wrapper" sx={{ padding: "0rem 3rem" }}>
           <Typography className="heading" sx={{ fontSize: { xs: "1rem" } }}>
@@ -15,10 +26,13 @@ const Section3 = () => {
             spot is ready!
           </Typography>
         </Box>
-        <Box className="spotImage_wrapper">
-          <img width="100%" src={image4} alt="" />
-        </Box>
       </Container>
+      <Box
+        className="spotImage_wrapper"
+        sx={{ position: "absolute", top: "30px" }}
+      >
+        <img width="100%" src={image4} alt="" />
+      </Box>
     </Box>
   );
 };
