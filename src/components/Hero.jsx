@@ -63,16 +63,57 @@ const Hero = () => {
           </Box>
         </Box>
       </Container>
-      <Box className="textAnimationWrapper">
-        <Typography>
-          $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK
-          $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK
-          $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK
-          $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK
-          $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK
-          $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK
-          $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK $FLORK
-        </Typography>
+      <Box
+        className="slider"
+        style={{ "--width": "100px", "--height": "80px", "--quantity": 15 }}
+      >
+        <Box className="list">
+          <Typography className="item" style={{ "--position": 1 }}>
+            / FLORK
+          </Typography>
+          <Typography className="item" style={{ "--position": 2 }}>
+            / FLORK
+          </Typography>
+          <Typography className="item" style={{ "--position": 3 }}>
+            / FLORK
+          </Typography>
+          <Typography className="item" style={{ "--position": 4 }}>
+            / FLORK
+          </Typography>
+          <Typography className="item" style={{ "--position": 5 }}>
+            / FLORK
+          </Typography>
+          <Typography className="item" style={{ "--position": 6 }}>
+            / FLORK
+          </Typography>
+          <Typography className="item" style={{ "--position": 7 }}>
+            / FLORK
+          </Typography>
+          <Typography className="item" style={{ "--position": 8 }}>
+            / FLORK
+          </Typography>
+          <Typography className="item" style={{ "--position": 9 }}>
+            / FLORK
+          </Typography>
+          <Typography className="item" style={{ "--position": 10 }}>
+            / FLORK
+          </Typography>
+          <Typography className="item" style={{ "--position": 11 }}>
+            / FLORK
+          </Typography>
+          <Typography className="item" style={{ "--position": 12 }}>
+            / FLORK
+          </Typography>
+          <Typography className="item" style={{ "--position": 13 }}>
+            / FLORK
+          </Typography>
+          <Typography className="item" style={{ "--position": 14 }}>
+            / FLORK
+          </Typography>
+          <Typography className="item" style={{ "--position": 15 }}>
+            / FLORK
+          </Typography>
+        </Box>
       </Box>
     </>
   );
