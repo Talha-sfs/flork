@@ -53,7 +53,9 @@ const Hero = () => {
                 justifyContent: "center",
                 alignItems: "center",
                 position: "relative",
-                bottom: { xs: "-1.4rem", sm: "-1.8rem", md: "-3.2rem" },
+                bottom: { xs: "-1.4rem", sm: "-1.8rem", md: "-3.1rem" },
+                zIndex: 999,
+                mixBlendMode: "multiply",
               }}
             >
               <Typography className="text1">Meet</Typography>
