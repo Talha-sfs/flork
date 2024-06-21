@@ -1,6 +1,5 @@
 import { Box, Button, Container, IconButton, Typography } from "@mui/material";
-import logo from "../assets/logo.png";
-import heroImg from "../assets/heroImg.png";
+import heroImg from "../assets/Flork.gif";
 import Iconify from "./iconify/iconify";
 
 const Hero = () => {
@@ -54,7 +53,7 @@ const Hero = () => {
                 justifyContent: "center",
                 alignItems: "center",
                 position: "relative",
-                bottom: { xs: "-1.4rem", sm: "-1.8rem", md: "-3.7rem" },
+                bottom: { xs: "-1.4rem", sm: "-1.8rem", md: "-3.2rem" },
               }}
             >
               <Typography className="text1">Meet</Typography>
