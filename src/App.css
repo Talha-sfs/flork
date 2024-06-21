@@ -51,14 +51,6 @@
 
 /* Vector 159 */
 
-@keyframes moveTextLeftToRight {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
 @keyframes autoRun {
   from {
     left: 100%;

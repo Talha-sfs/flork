@@ -68,6 +68,8 @@ const Join = () => {
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
+                boxShadow: "5px 11px 8px rgba(0,0,0, .33)",
+                borderRadius: "5rem",
               }}
             >
               <img width="100%" src={image5} alt="" />
@@ -77,6 +79,8 @@ const Join = () => {
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
+                boxShadow: "5px 11px 8px rgba(0,0,0, .33)",
+                borderRadius: "5rem",
               }}
             >
               <img width="100%" src={image6} alt="" />
