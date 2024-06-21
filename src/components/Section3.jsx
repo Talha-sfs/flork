@@ -5,7 +5,7 @@ import { Container, Stack, Typography } from "@mui/material";
 const Section3 = () => {
   return (
     <Box
-      className="spotMain_wrapper"
+      className="spotMain_wrapper appear"
       sx={{
         height: { xs: "60vh", sm: "100vh", md: "130vh" },
         maxHeight: { xs: "490px", sm: "690px", md: "990px" },

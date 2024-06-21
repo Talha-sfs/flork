@@ -11,7 +11,7 @@ const Features = () => {
         alignItems: "center",
       }}
     >
-      <Container>
+      <Container className="appear">
         <Box
           sx={{
             display: "flex",

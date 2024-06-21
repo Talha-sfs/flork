@@ -11,7 +11,7 @@ const Section1 = ({ heading, text, img }) => {
         justifyContent: "center",
         alignItems: "center",
       }}
-      className="container"
+      className="container appear"
     >
       <Grid container flexDirection="row-reverse" spacing={4}>
         <Grid

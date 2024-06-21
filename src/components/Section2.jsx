@@ -11,7 +11,7 @@ const Section2 = ({ heading, text, img }) => {
         justifyContent: "center",
         alignItems: "center",
       }}
-      className="container"
+      className="container appear"
     >
       <Grid container spacing={4}>
         <Grid

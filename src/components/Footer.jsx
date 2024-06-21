@@ -18,6 +18,7 @@ const Footer = () => {
           flexDirection: "column",
           alignItems: "center",
         }}
+        className="appear"
       >
         <Box
           className="footer_header"

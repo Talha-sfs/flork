@@ -19,7 +19,7 @@ const Contract = () => {
     }
   };
   return (
-    <Container sx={{ margin: "3rem auto" }}>
+    <Container sx={{ margin: "3rem auto" }} className="appear">
       <Typography mb={2} sx={{ textAlign: "center" }} className="heading">
         CONTRACT
       </Typography>

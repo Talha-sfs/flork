@@ -19,7 +19,7 @@ const Join = () => {
         maxHeight: { xs: "90vh", sm: "690px", md: "790px" },
       }}
     >
-      <Container className="container">
+      <Container className="container appear">
         <Box>
           <Typography
             sx={{
