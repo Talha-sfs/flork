@@ -25,7 +25,7 @@ const Features = () => {
           <Box>
             <Typography
               sx={{
-                fontFamily: "Denk One",
+                fontFamily: "Luckiest Guy",
                 fontWeight: "400",
                 fontSize: { xs: "1rem", md: "2.4rem" },
                 lineHeight: "160%",
@@ -44,11 +44,10 @@ const Features = () => {
               color: "#fff",
             }}
           />
-
           <Box>
             <Typography
               sx={{
-                fontFamily: "Denk One",
+                fontFamily: "Luckiest Guy",
                 fontWeight: "400",
                 fontSize: { xs: "1rem", md: "2.4rem" },
                 lineHeight: "160%",
@@ -70,7 +69,7 @@ const Features = () => {
           <Box>
             <Typography
               sx={{
-                fontFamily: "Denk One",
+                fontFamily: "Luckiest Guy",
                 fontWeight: "400",
                 fontSize: { xs: "1rem", md: "2.4rem" },
                 lineHeight: "160%",
@@ -93,7 +92,7 @@ const Features = () => {
           <Box>
             <Typography
               sx={{
-                fontFamily: "Denk One",
+                fontFamily: "Luckiest Guy",
                 fontWeight: "400",
                 fontSize: { xs: "1rem", md: "2.4rem" },
                 lineHeight: "160%",

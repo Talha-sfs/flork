@@ -1,6 +1,7 @@
-import { Box, Button, Container, Typography } from "@mui/material";
+import { Box, Button, Container, IconButton, Typography } from "@mui/material";
 import logo from "../assets/logo.png";
 import heroImg from "../assets/heroImg.png";
+import Iconify from "./iconify/iconify";
 
 const Hero = () => {
   return (
@@ -21,14 +22,27 @@ const Hero = () => {
               justifyContent: { xs: "space-between" },
             }}
           >
-            <Box
-              sx={{
-                width: "50%",
-                display: "flex",
-                justifyContent: { sm: "unset", xs: "unset", md: "flex-end" },
-              }}
-            >
-              <img className="logo" src={logo} alt="" />
+            <Box sx={{ display: "flex", gap: "1rem" }}>
+              <Box>
+                <IconButton
+                  sx={{
+                    border: "2px solid #000",
+                    boxShadow: "0px 4px 0px #000",
+                  }}
+                >
+                  <Iconify color="#000" icon="pajamas:twitter" />
+                </IconButton>
+              </Box>
+              <Box>
+                <IconButton
+                  sx={{
+                    border: "2px solid #000",
+                    boxShadow: "0px 4px 0px #000",
+                  }}
+                >
+                  <Iconify color="#000" icon="cib:telegram-plane" />
+                </IconButton>
+              </Box>
             </Box>
             <Button className="btn_primary">Buy Flork</Button>
           </Box>
