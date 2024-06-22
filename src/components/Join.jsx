@@ -59,6 +59,8 @@ const Join = () => {
                 boxShadow: "0px 4px 0px #fff",
               },
             }}
+            href="https://t.me/HeyFlork"
+            target="_blank"
           >
             JOIN FLORK COMMUNITY
           </Button>

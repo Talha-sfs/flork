@@ -23,24 +23,28 @@ const Hero = () => {
           >
             <Box sx={{ display: "flex", gap: "1rem" }}>
               <Box>
-                <IconButton
-                  sx={{
-                    border: "2px solid #000",
-                    boxShadow: "0px 4px 0px #000",
-                  }}
-                >
-                  <Iconify color="#000" icon="pajamas:twitter" />
-                </IconButton>
+                <a target="_blank" href="https://x.com/HeyFlork">
+                  <IconButton
+                    sx={{
+                      border: "2px solid #000",
+                      boxShadow: "0px 4px 0px #000",
+                    }}
+                  >
+                    <Iconify color="#000" icon="pajamas:twitter" />
+                  </IconButton>
+                </a>
               </Box>
               <Box>
-                <IconButton
-                  sx={{
-                    border: "2px solid #000",
-                    boxShadow: "0px 4px 0px #000",
-                  }}
-                >
-                  <Iconify color="#000" icon="cib:telegram-plane" />
-                </IconButton>
+                <a target="_blank" href="https://t.me/HeyFlork">
+                  <IconButton
+                    sx={{
+                      border: "2px solid #000",
+                      boxShadow: "0px 4px 0px #000",
+                    }}
+                  >
+                    <Iconify color="#000" icon="cib:telegram-plane" />
+                  </IconButton>
+                </a>
               </Box>
             </Box>
             <Button className="btn_primary">Buy Flork</Button>
