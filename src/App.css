@@ -203,6 +203,11 @@
     font-size: 16px !important;
   }
 }
+@media screen and (min-width: 600px) {
+  .flork_image {
+    bottom: -1.6rem;
+  }
+}
 @media screen and (min-width: 768px) {
   .container {
     height: 100vh;
@@ -264,7 +269,11 @@
     bottom: -2.7rem;
   }
 }
-
+@media screen and (min-width: 1200px) {
+  .flork_image {
+    bottom: -3.1rem !important;
+  }
+}
 @media screen and (min-width: 1440px) {
   .container {
     height: 100vh;
